@@ -1,0 +1,18 @@
+
+    <form #data='ngForm' (ngSubmit)="save(data)">
+        <label>enter name</label>
+        <input type="text" name="name" ngModel><br><br>
+        <label>enter address</label>
+        <input type="text" name="address" ngModel><br><br>
+        <label>enter username</label>
+        <input type="text" name="username" ngModel><br><br>
+        <label>enter password</label>
+        <input type="password" name="password" ngModel><br><br>
+        <input type="submit">
+    </form>
+
+{{newname}}
+{{newaddress}}
+{{newusername}}
+{{newpassword}}
+{{msg.message}}
